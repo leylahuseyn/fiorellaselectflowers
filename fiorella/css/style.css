@@ -1,0 +1,33 @@
+ul li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+ul li :hover{
+    color: red;
+}
+.filter{
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+    margin-top: 50px;
+    width: 21%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 2.1%;
+}
+.item1{
+    margin-top: 50px;
+    width: 21%;
+    display: inline-block;
+    margin: 2.1%;
+    text-align: center;
+}
+.item img{
+    width: 100%;
+}
+.item1 img{
+    width: 100%;
+}

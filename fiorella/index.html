@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <ul class="row menu">
+                <li class="select text-red">ALL</li>
+                <li onclick="selectFlowers()" class="select" atribut="cactuses">CACTUSES</li>
+                <li onclick="selectFlowers()" class="select" atribut="exotic">EXOTIC</li>
+                <li onclick="selectFlowers()" class="select" atribut="greens">GREENS</li>
+                <li onclick="selectFlowers()" class="select" atribut="popular">POPULAR</li>
+                <li onclick="selectFlowers()" class="select" atribut="various">VARIOUS</li>
+                <li onclick="selectFlowers()" class="select" atribut="winter">WINTER</li>
+            </ul>
+        <p class="filter">Filter<i class="las la-sort-down"></i></p>
+        </div>
+        <div class="item flwr cactuses greens popular winter various">
+            <img src="./images/img1.jpg">
+            <p class="font-size10 m-t-10">MAJESTY PALM</p>
+            <p class="font-size10 text-gray m-t-10">$259</p>
+        </div>
+        <div class="item1 flwr popular winter various">
+            <img src="./images/img2.jpg">
+            <p class="font-size10 m-t-10">FOXGLOVE FLOWER</p>
+            <p class="font-size10 text-gray m-t-10">$259</p>
+        </div>
+        <div class="item1 flwr popular winter various">
+            <img src="./images/img3.jpg">
+            <p class="font-size10 m-t-10">SWEET ALYSSUM</p>
+            <p class="font-size10 text-gray m-t-10">$259</p>
+        </div>
+        <div class="item1 flwr popular various">
+            <img src="./images/img4.jpg">
+            <p class="font-size10 m-t-10">SPRING SNOWFLAKE</p>
+            <p class="font-size10 text-gray m-t-10">$170</p>
+        </div>
+        <div class="item flwr exotic popular various">
+            <img src="./images/img5.jpg">
+            <p class="font-size10 m-t-10">SCARLET SAGE</p>
+            <del class="font-size10 text-gray m-t-10">$259</del>
+            <span class="font-size10 text-gray m-t-10">$159</span>
+        </div>
+        <div class="item1 flwr cactuses various">
+            <img src="./images/img6.jpg">
+            <p class="font-size10 m-t-10">ROCK SOAPWORT</p>
+            <p class="font-size10 text-gray m-t-10">$259</p>
+        </div>
+        <div class="item1 flwr greens various">
+            <img src="./images/img7.jpg">
+            <p class="font-size10 m-t-10">SUMMER SAVORY</p>
+            <p class="font-size10 text-gray m-t-10">$259</p>
+        </div>
+        <div class="item1 flwr exotic various">
+            <img src="./images/img8.jpg">
+            <p class="font-size10 m-t-10">WILD ROSES</p>
+            <p class="font-size10 text-gray m-t-10">$259</p>
+        </div>
+        
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
